@@ -1,0 +1,7 @@
+{
+  "name": "stubJson",
+  "description": "return JSON of fixed blog article object",
+  "scripts": {
+    "start": "start"
+  }
+}
