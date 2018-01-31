@@ -1,5 +1,5 @@
 const winston = require('winston');
-const { combine, timestamp, printf } = winston.format;
+const { printf } = winston.format;
 
 const myFormat = printf(info => `${info.message}`);
 

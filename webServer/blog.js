@@ -12,7 +12,7 @@ router.get('/blogs', (req, resp) => {
     resp.end();
 });
 
-router.get('/blogs/id', (req, resp) => {
+router.get('/blogs/:id', (req, resp) => {
     console.log('Reading blog with id = ' + req.params.id);
     resp.end();
 });
@@ -22,12 +22,12 @@ router.post('/blogs', (req, resp) => {
     resp.end();
 });
 
-router.put('/blogs/id', (req, resp) => {
+router.put('/blogs/:id', (req, resp) => {
     console.log('Updating blog with id = ' + req.params.id);
     resp.end();
 });
 
-router.delete('/blogs/id', (req, resp) => {
+router.delete('/blogs/:id', (req, resp) => {
     console.log('Deleting blog with id ' + req.params.id);
     resp.end();
 });
