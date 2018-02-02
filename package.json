@@ -1,0 +1,22 @@
+{
+  "name": "FrontCamp-NodeJS-Express",
+  "version": "0.0.1",
+  "description": "Part 1 of hometask",
+  "scripts": {
+    "start": "nodemon ./webServer/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tanya-Bakhmatovich/FrontCamp-NodeJS-Express.git"
+  },
+  "license": "ISC",
+  "author": "Tanya Bakhmatovich",
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4",
+    "winston": "^3.0.0-rc1"
+  }
+}
