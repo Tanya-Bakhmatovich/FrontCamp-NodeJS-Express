@@ -1,0 +1,10 @@
+body {
+  padding: 10px;
+}
+ a, button, input {
+   margin: 5px;
+ }
+
+ h3 {
+   margin-bottom: 30px;
+ }
